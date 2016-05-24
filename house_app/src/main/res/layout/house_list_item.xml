@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_logo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/iv_logo"
+        android:enabled="true"
+        android:singleLine="true"
+        android:text="武林一号"
+        android:textColor="#101010"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_logo"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="10dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:layout_toRightOf="@id/iv_logo"
+        android:text="地址：放假了大解放了看到就阿狸分开多久啊放了多久啊离开封疆大吏减肥大事了,放了多久啊离开封疆大吏减肥大事了"
+        android:textColor="#808080"
+        android:textSize="13sp" />
+
+
+</RelativeLayout>

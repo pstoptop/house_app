@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_house_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ea8010"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:text="武林一号"
+        android:textColor="@color/text_color_white"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_house_title">
+
+        <TextView
+            android:id="@+id/tv_house_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="哈哈哈哈哈" />
+    </LinearLayout>
+</RelativeLayout>
